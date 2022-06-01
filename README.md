@@ -1,6 +1,6 @@
 # Simple ERC-20 token project
 
-This project comes with a smart contract based on OpenZeppelin's ERC20 implementation of the ERC20 interface. Feel free to modify the `Ritz.sol` (specifically the token's **name**, **symbol**, and **total supply**) to whatever you'd like! After doing so, do the following in order to deploy the contract to a live network:
+This project comes with a smart contract based on OpenZeppelin's ERC20 implementation of the ERC20 interface. Feel free to modify the `Ritz.sol` (specifically the token's **name**, **symbol**, and **total supply**) to whatever you'd like! Don't forget to modify `deploy.js` and update the contract factory getter to your token 🪙. After doing so, do the following in order to deploy the contract to a live network:
 
 1. `git clone ` this repo
 2. `npm i` and `npm i --save-dev` to install both production & development dependencies
